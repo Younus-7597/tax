@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MOHAMMED YOUNUS</title>
+</head>
+<body>
+<div class="searchform clearfix">
+    <input type="number" min="1" id="nameVal" oninput="init()" onkeydown="if(event.key==='-'){event.preventDefault();}" onfocus="this.value=''" placeholder="Enter the amount">
+    <button class="add" onclick="alrt()">Find</button>
+    <br>
+    <div class="view">See result here</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

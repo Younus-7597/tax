@@ -1,0 +1,104 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    background: #3aaae8;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.searchform {
+    background:rgba(244,244,244,.79);
+    border: 1px solid #d3d3d3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px 3px;
+    position: absolute;
+    margin: 10px;
+    width:500px;
+    box-shadow:0 4px 9px rgba(0,0,0,.37);
+    border-radius: 10px;
+    display: block;
+}
+  
+.searchform input {
+    background:#fefefe;
+    border: none;
+    font:15px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    margin-right: 5px;
+    padding: 10px;
+    width: 375px;
+    box-shadow: 0 0 4px rgba(0,0,0,.4) inset, 1px 1px 1px rgba(255,255,255,.75);
+    border-radius: 9px;
+    float: left;
+}
+
+.searchform input:focus {
+    outline: none;
+    box-shadow:0 0 4px #0d76be inset;
+}
+
+.searchform .add {
+    background: rgb(52,173,236);
+    background: linear-gradient(to bottom, rgba(52,173,236,1) 0%,rgba(38,145,220,1) 100%);
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    font: 15px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    padding: 10px;
+    width:105px;
+    box-shadow: 0 0 2px #2692dd inset;
+    border-radius: 9px;
+    float: right;
+}
+      
+.searchform .add:hover {
+          opacity:.8;
+          outline: none;
+          border: none;
+}
+
+.searchform .add:active {
+    outline: none;
+    border: none;
+}
+
+.view
+{
+	position: relative;
+	padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 480px;
+    float: right;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+    outline: none;
+    background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+    outline: none;	
+    border:none ;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
